@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Traveling _Typewriter';
+    src: url('font/TravelingTypewriter.woff2') format('woff2'),
+        url('font/TravelingTypewriter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
