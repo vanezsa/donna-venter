@@ -7,34 +7,138 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="font-face.css">
 
         <title>Donna Venter</title>
     </head>
     <body>
         <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/close-btn.svg" alt="menu"></a>
             <div class="overlay-content">
-                <a href="#">Home</a>
-                <a href="#">Book</a>
-                <a href="#">Service</a>
-                <a href="#">Page</a>
+                <a href="index.html">Home</a>
+                <a href="book.html">Book</a>
+                <a href="services.html">Services</a>
+                <a href="page.html">Page</a>
             </div>
         </div>
         <!-- <img src="img/menu.svg" alt="menu" onclick="openNav()">-->
-        <nav class="navbar fixed-top navbar-light bg-light pt-4 pb-3">
-         <div class="container">
-          <div class="float-left">
-              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-          </div>
-           
-            <div class="text-center">
-                aaaaa
+        <nav class="navbar pt-5 pb-3">
+            <div class="container">
+                <div class="float-left">
+                   <img src="img/menu.svg" alt="menu" onclick="openNav()" style="cursor: pointer">
+                </div>
+
+                <div class="text-center">
+                    aaaaa
+                </div>
+
             </div>
-            </div>
-            
+
         </nav>
-        
+
+
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <div class="card custom-box-1" onclick="location.href='#';" style="cursor: pointer;">
+                        <div class="card-body">
+                            <img src="img/book.png" class="img-fluid" alt="book">
+                            <div class="text-title pt-5">
+                                <p>The book</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pt-5">
+                        <div class="col-md-6 text-center">
+                            <div class="card custom-box-2" onclick="location.href='#';" style="cursor: pointer;">
+                                <div class="card-body">
+                                    <img src="img/contact.png" class="img-fluid mb-5" alt="contact">
+                                    <div class="text-title c-bottom pb-3">
+                                        <p>Contact</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 text-center">
+                            <div class="card custom-box-2" onclick="location.href='#';" style="cursor: pointer;">
+                                <div class="card-body">
+                                    <img src="img/blog.png" class="img-fluid mb-5" alt="articles">
+                                    <div class="text-title c-bottom pb-3">
+                                        <p>Articles</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card custom-box-2 mb-5" onclick="location.href='#';" style="cursor: pointer;">
+                                <div class="card-body">
+                                    <img src="img/bag.png" class="img-fluid mb-5" alt="bag">
+                                    <div class="text-title c-bottom pb-2">
+                                        <p>Buy the book</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 text-center">
+                            <div class="card custom-box-2 mb-5" onclick="location.href='#';" style="cursor: pointer;">
+                                <div class="card-body">
+                                    <img src="img/about.png" class="img-fluid" alt="about">
+                                    <div class="text-title pt-5">
+                                        <p>About Donna</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card custom-box-1 pt-5" onclick="location.href='#';" style="cursor: pointer;">
+                        <div class="card-body">
+                            <img src="img/writing-services.png" class="img-fluid" alt="book">
+                            <div class="text-title-normal pt-5">
+                                <p>Red Cardinal Writing <br>
+                                    writing services tagline</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer class="footer mt-5 mb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-left r-text-c">
+                        <a href="#"><img src="img/fb.svg" alt="facebook"></a>
+                        <a href="#" class="pl-3"><img src="img/twitter.svg" alt="twitter"></a>
+                        <a href="#" class="pl-3"><img src="img/ig.svg" alt="instagram"></a>
+                    </div>
+
+                    <div class="col-md-4 text-center r-text-c pt-3">
+                       <p> &copy; 2018 Donna M Venter / Red Cardinal Writing</p>
+                    </div>
+
+                    <div class="col-md-4 text-right r-text-c">
+                        <a href="https://jinand.co"><img src="img/jin-and-co-logo.svg" alt="jin-and-co"></a> 
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+
 
 
 

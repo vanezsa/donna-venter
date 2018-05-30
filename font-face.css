@@ -6,3 +6,11 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Book Antiqua';
+    src: url('font/BookAntiqua.woff2') format('woff2'),
+        url('font/BookAntiqua.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
