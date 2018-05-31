@@ -11,6 +11,7 @@ $clr-white: #fff;
 $clr-light-yellow: #FFFBF1;
 $clr-title-text: #2A4343;
 $clr-placeholder: #7F7F7F;
+$clr-btn: #CF452F;
 
 
 * {
@@ -71,6 +72,7 @@ a, a:hover {
     font-family: $font-stack-3;
     font-size: 22px;
     color: $clr-green;
+    text-transform: uppercase;
 }
 
 .text-nav-caps-1 {
@@ -150,8 +152,8 @@ a, a:hover {
 .btn.btn-primary:active,
 .btn.btn-primary:visited,
 .btn.btn-primary:focus {
-    background-color: $clr-red;
-    border-color: $clr-red!important;
+    background-color: $clr-btn;
+    border-color: $clr-btn!important;
     border-radius: 0px;
     color: $clr-white;
     font-family: $font-stack-1;
@@ -166,10 +168,10 @@ a, a:hover {
 
 .input-group-append .btn {z-index: 0;}
 .custom-btn, .custom-btn:hover {
-    background-color: $clr-red;
+    background-color: $clr-btn;
     color: $clr-white;
     height: 48px;
-    border-color: $clr-red;
+    border-color: $clr-btn;
     border-radius: 0rem;
 }
 

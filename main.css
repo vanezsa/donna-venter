@@ -42,7 +42,8 @@ a, a:hover {
 .text-nav-caps-1, .text-nav-caps-2, .text-nav-normal-1, .text-nav-normal-2 {
   font-family: "Book Antiqua";
   font-size: 22px;
-  color: #2A4343; }
+  color: #2A4343;
+  text-transform: uppercase; }
 
 .text-nav-caps-1 {
   font-size: 30px; }
@@ -105,8 +106,8 @@ a, a:hover {
 .btn.btn-primary:active,
 .btn.btn-primary:visited,
 .btn.btn-primary:focus {
-  background-color: #D34630;
-  border-color: #D34630 !important;
+  background-color: #CF452F;
+  border-color: #CF452F !important;
   border-radius: 0px;
   color: #fff;
   font-family: "Alegreya Sans", sans-serif;
@@ -122,10 +123,10 @@ a, a:hover {
   z-index: 0; }
 
 .custom-btn, .custom-btn:hover {
-  background-color: #D34630;
+  background-color: #CF452F;
   color: #fff;
   height: 48px;
-  border-color: #D34630;
+  border-color: #CF452F;
   border-radius: 0rem; }
 
 .form-control {
