@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box; }
 
-body, .text-body-2, a, a:hover {
+body, .text-body-2 {
   font-size: 18px;
   color: #373737;
   font-family: "Alegreya Sans", sans-serif;
@@ -99,9 +99,6 @@ a, a:hover {
   margin-right: auto;
   left: 0;
   right: 0; }
-
-.r-margin-1 {
-  margin-top: 15px; }
 
 .btn.btn-primary,
 .btn.btn-primary:hover,
@@ -201,9 +198,6 @@ a, a:hover {
     font-size: 40px;
     top: 15px;
     right: 35px; } }
-@media (max-width: 1199px) {
-  .r-margin-1 {
-    margin-top: 0px; } }
 @media (max-width: 767px) {
   .r-text-c {
     text-align: center !important; }
