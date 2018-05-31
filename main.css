@@ -78,7 +78,8 @@ a, a:hover {
   vertical-align: middle;
   width: 100%;
   min-height: 310px;
-  height: auto; }
+  height: auto;
+  padding: 10px; }
 
 .custom-bg {
   background-color: #FFFBF1; }
@@ -99,6 +100,9 @@ a, a:hover {
   left: 0;
   right: 0; }
 
+.r-margin-1 {
+  margin-top: 15px; }
+
 .btn.btn-primary,
 .btn.btn-primary:hover,
 .btn.btn-primary:active,
@@ -112,7 +116,13 @@ a, a:hover {
   font-weight: 400;
   font-size: 18px;
   height: 48px;
-  white-space: pre-wrap; }
+  line-height: 21px;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center; }
+
+.input-group-append .btn {
+  z-index: 0; }
 
 .custom-btn, .custom-btn:hover {
   background-color: #D34630;
@@ -191,6 +201,9 @@ a, a:hover {
     font-size: 40px;
     top: 15px;
     right: 35px; } }
+@media (max-width: 1199px) {
+  .r-margin-1 {
+    margin-top: 0px; } }
 @media (max-width: 767px) {
   .r-text-c {
     text-align: center !important; }

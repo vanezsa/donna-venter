@@ -122,6 +122,7 @@ a, a:hover {
     width: 100%; 
     min-height: 310px;
     height: auto;
+    padding: 10px;
 }
 
 .custom-bg {
@@ -136,7 +137,6 @@ a, a:hover {
     left: 0;
     right: 0;
 }
-
 .c-top {
     position: absolute;
     top: 0; 
@@ -145,6 +145,7 @@ a, a:hover {
     left: 0;
     right: 0;
 }
+.r-margin-1 {margin-top: 15px;}
 
 .btn.btn-primary,
 .btn.btn-primary:hover,
@@ -159,9 +160,13 @@ a, a:hover {
     font-weight: 400;
     font-size: 18px;
     height: 48px;
+    line-height: 21px;
     white-space: pre-wrap;
+    display: flex;
+    align-items: center;
 }
 
+.input-group-append .btn {z-index: 0;}
 .custom-btn, .custom-btn:hover {
     background-color: $clr-red;
     color: $clr-white;
@@ -240,6 +245,10 @@ a, a:hover {
         top: 15px;
         right: 35px;
     }
+}
+
+@media (max-width: 1199px) {
+    .r-margin-1 {margin-top: 0px;}
 }
 
 @media (max-width: 767px) { 
